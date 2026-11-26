@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # تحميل البيانات
-df = pd.read_csv('data/clean.csv')
+df = pd.read_csv('clean.csv')
 
 # تنظيف قيم الفلاتر
 df['City'] = df['City'].str.strip()
